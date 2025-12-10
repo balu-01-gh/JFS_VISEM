@@ -1,7 +1,22 @@
 1. git init
 2. git add
 3. git commit -m "git commands"
-4. git remote add origin <url>
-5. git push origin main
+4. git config --global user.email "your email"
+5. git config --global user.name "your name"
+6. git remote add origin <url>
+7. git branch
+8. git push origin main
+
+---------------------------------------------------------
+if you were add any files or change the existing files in the current folder need to follow these steps
+
+for verification:
+1. git status
+2. git add .
+3. git commit -m "changes in commands"
+4. git push origin main
+
 
 https://github.com/balu-01-gh/JFS_VISEM
+
+https://github.com/balu-01-gh/JFS_VISEM.git
