@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Language Inventors</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Programming Language Inventors</h1>
+    </header>
+
+    <main id="app-container">
+        <div id="selection-section">
+            <label for="language-select">Select a Programming Language Inventor:</label>
+            <select id="language-select">
+                <option value="">-- Choose a Language --</option>
+            </select>
+        </div>
+
+        <div id="language-details">
+            <div id="initial-message">
+                <p>Select a language from the dropdown above to view the inventor's profile.</p>
+            </div>
+
+            <div id="inventor-card" class="hidden">
+                <div id="inventor-image-container">
+                    <img id="inventor-image" src="" alt="Inventor's Photo">
+                </div>
+                
+                <div id="inventor-info">
+                    <h2 id="language-name"></h2>
+                    <h3 id="inventor-name"></h3>
+                    <div id="details-box">
+                        <p id="inventor-details"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
